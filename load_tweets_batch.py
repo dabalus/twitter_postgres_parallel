@@ -412,4 +412,4 @@ if __name__ == '__main__':
                         for i,line in enumerate(f):
                             tweet = json.loads(line)
                             tweets.append(tweet)
-                        insert_tweets(connection,tweets,args.batch_size)i
+                        insert_tweets(connection,tweets,args.batch_size)
